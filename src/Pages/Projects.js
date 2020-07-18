@@ -1,5 +1,5 @@
 import React from 'react';
-import '/Users/grantbingham/Downloads/personalwebsite/src/App.css';
+import '../App.css';
 import Header from '../Components/Header.jsx'
 import ProjectSection from '../Components/Sections/ProjectSection.jsx'
 import Footer from '../Components/Footer.jsx'

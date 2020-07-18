@@ -11,7 +11,7 @@ class ExtracurricularTile extends Component {
         return (
             <div className="ExtracurricularTile">
                 <h2>{this.props.Extracurricular}</h2>
-                <img src={require("/Users/grantbingham/Downloads/personalwebsite/src/Data/Images/"+ image +".png")}/>
+                <img src={require("../../../Data/Images/"+ image +".png")}/>
             </div>
         )
     }

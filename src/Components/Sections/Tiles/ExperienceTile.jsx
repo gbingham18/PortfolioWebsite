@@ -16,7 +16,7 @@ class ExperienceTile extends Component {
                     <h4>{this.props.TimeWorked}</h4>
                 </div>
                 <div className="LogoConatiner">
-                    <img src={require("/Users/grantbingham/Downloads/personalwebsite/src/Data/Images/" + image + ".png")}/>    
+                    <img src={require("../../../Data/Images/" + image + ".png")}/>    
                 </div>
                 <p>{this.props.Description}</p>
             </div>

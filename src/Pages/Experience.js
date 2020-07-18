@@ -1,5 +1,5 @@
 import React from 'react';
-import '/Users/grantbingham/Downloads/personalwebsite/src/App.css';
+import '../App.css';
 import ExperienceSection from '../Components/Sections/ExperienceSection.jsx'
 import Header from '/Users/grantbingham/Downloads/personalwebsite/src/Components/Header.jsx'
 import Footer from '../Components/Footer.jsx'

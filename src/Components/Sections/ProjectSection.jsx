@@ -1,7 +1,7 @@
 import React from "react";
 import ProjectTile from './Tiles/ProjectTile'
-import '/Users/grantbingham/Downloads/personalwebsite/src/App.css';
-import Projects from "/Users/grantbingham/Downloads/personalwebsite/src/Data/Projects.json"
+import '../../App.css';
+import Projects from "../../Data/Projects.json"
 
 
 function ProjectSection() {

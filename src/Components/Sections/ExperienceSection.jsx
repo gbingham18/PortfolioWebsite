@@ -1,6 +1,6 @@
 import React from "react";
 import ExperienceTile from './Tiles/ExperienceTile'
-import '/Users/grantbingham/Downloads/personalwebsite/src/App.css';
+import '../../App.css';
 import Experience from "../../Data/Experience.json"
 
 function ExperienceSection() {

@@ -1,5 +1,5 @@
 import React from "react";
-import '/Users/grantbingham/Downloads/personalwebsite/src/App.css';
+import '../../App.css';
 import Extracurriculars from "../../Data/Extracurriculars.json"
 import ExtracurricularTile from './Tiles/ExtracurricularTile'
 

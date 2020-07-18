@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useLocation } from 'react-router-dom'
-import '/Users/grantbingham/Downloads/personalwebsite/src/App.css';
+import '../App.css';
 
 function Header() {
   const location = useLocation();
