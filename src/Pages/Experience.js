@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
 import ExperienceSection from '../Components/Sections/ExperienceSection.jsx'
-import Header from '/Users/grantbingham/Downloads/personalwebsite/src/Components/Header.jsx'
+import Header from '../Components/Header.jsx'
 import Footer from '../Components/Footer.jsx'
 
 function Experience() {
