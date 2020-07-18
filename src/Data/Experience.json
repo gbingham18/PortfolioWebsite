@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "Company": 	"Fast Enterprises, LLC",
+        "Title": "Software Consultant",
+        "Location": "Little Rock, Arkansas",
+        "TimeWorked": "January 2019 - Present",
+        "Image": "Fast",
+        "Description": "Fast is a software consulting company that builds commercial of the shelf software for state governments. Since being hired, I’ve been assigned to a production support team for one of their DMV installments. Our team develops production enhancements and fixes to improve the application's performance."
+    },
+    {
+        "id": 2,
+        "Company": 	"Whitworth University",
+        "Title": "Web Development Intern",
+        "Location": "Spokane, Washington",
+        "TimeWorked": "May 2017 - Aug 2017",
+        "Image": "Whitworth",
+        "Description": "I spent this summer working for my school's church engagement program. I was tasked with building a web application for a local church. This application allowed for church members to volunteer for various activities and events, which improved the efficiency of the congregation’s volunteering process."
+    },
+    {
+        "id": 3,
+        "Company": 	"Spokane Valley Tech",
+        "Title": "Teaching Assistant",
+        "Location": "Spokane, Washington",
+        "TimeWorked": "Jun 2018 - August 2018",
+        "Image": "SVT",
+        "Description": "Taught students fundamentals of front end web development and assisted in debugging/problem solving."
+    }
+]

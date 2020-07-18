@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "Project": 	"Allele Frequency Similator",
+        "Type": "Capstone",
+        "Image": "AFSdarkgrey",
+        "Description": "A web application built on the Angular4 platform, Flask micro framework, and Python. The application was developed for the Whitworth Biology Department, and provides a graphical representation of the frequency of dominant alleles within populations. The algorithm is based on the Hardy-Weinberg equation and uses random pairing of parent alleles. Our team utilized agile methodologies for this capstone project.",
+        "Project2": 	"AI Sudoku Solver",
+        "Type2": "Research",
+        "Image2": "Sudoku",
+        "Description2": "In my college AI course, I implemented a python program that uses several hueristics to solve any valid Sudoku input. Includes a GUI built with the pygame library that shows the solving process of the puzzle."
+    },
+    {
+        "id": 2,
+        "Project": 	"Traveling Mailman",
+        "Type": "Research",
+        "Image": "WhitworthMap",
+        "Description": "Used Python to implement the Held-Karp Algorithm, a dynamic programming approach for the Traveling Salesman problem. My implementation was used to determine the optimal mailing route for the Whitworth Post Office.",
+        "Project2": 	"CPU Process Scheduler",
+        "Type2": "Research",
+        "Image2": "OS",
+        "Description2": "A console application that simulates how an operating system might schedule a batch of jobs. This simulation includes C++ implementations of First-Come-First-Served, Shortest Process Next, Load Sharing, and Round Robin scheduling algorithms."
+    },
+    {
+        "id": 3,
+        "Project": 	"First Presbyterian Connect",
+        "Type": "Internship",
+        "Image": "FPC",
+        "Description": "Built a full stack web application that allowed for church members to volunteer for various activities/events, this improved the efficiency of the congregation’s volunteering process.",
+        "Project2": 	"Pong",
+        "Type2": "Research",
+        "Image2": "Pong",
+        "Description2": "Built a two player pong desktop application on x86 assembly. Used the Win32 API to build the GUI. Paddles were controlled with keyboard input."
+    }
+]

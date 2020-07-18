@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap');
+
+html {
+  overflow: hidden;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  overflow: auto;
+}
+
+/*Header Section CSS*/
+
+.Experience, .Projects, .Extracurriculars{
+  background-color: #282c34;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #282c34;
+  min-height: 10rem;
+  max-height: 10rem;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  border-bottom: 1px solid #393D45;
+}
+
+header h1 {
+  width: 30%;
+  float: left;
+  font-weight: lighter;
+  font-size: 2.4rem;
+  font-family: Montserrat, sans-serif;
+  padding: 2rem;
+  padding-left: 5rem;
+}
+
+header a {
+  font-family: Montserrat, sans-serif;
+  font-weight: lighter;
+  color: #DDDDDD;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+header ul {
+  flex: 3 1;
+  margin-right: 5rem;
+  margin-left: -3rem;
+  width: 100%;
+  float: right;
+  display: flex;
+  justify-content: space-around;
+}
+
+header li {
+  position: relative;
+  list-style: none;
+  float: left;
+  margin-top: 3rem;
+}
+
+header li a {
+  display: block;
+  width: 100%;
+  height: 1.5rem;
+  padding: .7rem;
+  border-bottom: 2 rem;
+  font-size: 1.2rem;
+  font-family: Source Sans Pro, sans-serif;
+  color: #61dafb;
+}
+
+header li a:hover {
+  transform: scale(1.2);
+  color: #DDDDDD;
+}
+
+header .OnExperiencePage a{
+  border-bottom: solid #61dafb;
+}
+
+header .OnProjectsPage a{
+  border-bottom: solid #61dafb;
+}
+
+header .OnExtracurricularPage a{
+  border-bottom: solid #61dafb;
+}
+
+/*Experience Section CSS*/
+
+.ExperienceSection {
+  margin-bottom: 5rem;
+}
+
+.ExperienceTile {
+  background-color: #393d45;
+  margin: auto;
+  margin-top: 5rem;
+  width: 44rem;
+  padding-top: 1rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  min-height: 30.5rem;
+  text-align: center;
+  overflow: hidden;
+  color: #DDDDDD;
+  font-size: 1.2rem;
+}
+
+.ExperienceTile h4 {
+  font-family: Quicksand, sans-serif;
+  font-weight: lighter;
+}
+
+.ExperienceTile h3 {
+  font-family: Quicksand, sans-serif;
+  font-weight: bolder;
+}
+
+.ExperienceTile p {
+  font-family: Quicksand, sans-serif;
+  font-weight: lighter;
+}
+
+.ExperienceTile img {
+  width: 10%;
+  height: 10%;
+}
+
+.LocationAndTimeWorked {
+  display: inline-block;
+  margin-top: -1.4rem;
+}
+
+.LocationAndTimeWorked h4 {
+  float: left;
+}
+
+#Location {
+  margin-right: 2rem;
+}
+
+.LogoContainer {
+  margin: auto;
+}
+
+
+/*Project Section CSS*/
+
+.ProjectRow {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.ProjectTile {
+  position: relative;
+  float: left;
+  height: 19rem;
+  width: 35rem;
+  margin-bottom: 6rem;
+}
+
+.ProjectTileImage {
+  opacity: 1;
+  width: 35rem;
+  height: auto;
+  transition: .5s ease;
+  transform: translate(0, -9rem);
+  -ms-transform: translate(0, -9rem);
+  margin: auto;
+  margin-bottom: -35%;
+}
+
+.ProjectTileInfo {
+  width: 35rem;
+  height: 8rem;
+  transition: .5s ease;
+  opacity: 0;
+  text-align: center;
+  color: #DDDDDD;
+}
+
+.ProjectTileInfo h4 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.ProjectTile:hover .ProjectTileImage {
+  opacity: 0.1;
+}
+
+.ProjectTile:hover .ProjectTileInfo {
+  opacity: 1;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  margin-bottom: 0vh;
+}
+
+.row {
+  margin-top: 4rem;
+}
+
+/*Extracurricular Section CSS*/
+.ExtracurricularTile {
+  width: 100%;
+  text-align: center;
+  margin-top: 4rem;
+  color: #DDDDDD
+}
+
+.ExtracurricularTile img{
+  width: 50rem;
+  margin: auto;
+}
+
+.ExtracurricularTile h2 {
+  font-family: Quicksand, sans-serif;
+  font-weight: lighter;
+}
+
+.ExtracurricularSection {
+  margin-bottom: 5rem;
+}
+
+/*Footer Section CSS*/
+
+.App-footer {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid #393D45;
+  min-height: 7rem;
+}
+
+.App-footer .copyright {
+  flex: 3 1;
+}
+
+.App-footer h3{
+  text-align: left;
+  flex: 3 1;
+  float: left;
+  font-family: Montserrat,sans-serif;
+  font-weight: 200;
+  font-size: 1rem;
+  color: #DDDDDD;
+  position: absolute;
+  bottom: 0;
+  padding-left: 1rem;
+}
+
+.App-footer img {
+  height: 2rem;
+  width: 2rem;
+  position: absolute;
+  bottom: 0;
+}
+
+.App-footer ul {
+  flex: 3 1;
+  margin-right: 5rem;
+  margin-left: -3rem;
+  width: 100%;
+  float: right;
+  display: flex;
+  justify-content: space-around;
+}
+
+.App-footer ul{
+  max-width: 20rem;
+  float: right;
+  margin-right: 1rem;
+}
+
+.App-footer li {
+  position: relative;
+  list-style: none;
+  float: left;
+  margin-top: 3rem;
+}
+
+.App-footer li a {
+  display: block;
+  width: 100%;
+  height: 1.5rem;
+  padding: .7rem;
+  border-bottom: 2 rem;
+  font-size: 1.2rem;
+  font-family: Source Sans Pro, sans-serif;
+  color: #61dafb;
+}
