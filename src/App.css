@@ -466,6 +466,14 @@ header .OnExtracurricularPage a{
     padding: 0;
     width: 100vw;
   }
+
+  .ProjectTile:hover.ProjectTileImage{
+    opacity: 0.1;
+  }
+  
+  .ProjectTile:hover .ProjectTileInfo {
+    opacity: 1;
+  }
 }
 
 @media only screen and (max-width: 365px) {
