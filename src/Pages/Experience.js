@@ -7,7 +7,7 @@ import Footer from '../Components/Footer.jsx'
 function Experience() {
   return (
     <div className="Experience">
-      <Header></Header>
+      <Header location="/"></Header>
       <ExperienceSection></ExperienceSection>
       <Footer></Footer>
     </div>

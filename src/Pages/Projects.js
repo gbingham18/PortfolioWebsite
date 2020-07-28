@@ -7,7 +7,7 @@ import Footer from '../Components/Footer.jsx'
 function Projects() {
   return (
     <div className="Projects">
-      <Header></Header>
+      <Header location="/Projects"></Header>
       <ProjectSection></ProjectSection>
       <Footer></Footer>
     </div>

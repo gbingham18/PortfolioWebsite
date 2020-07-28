@@ -47,12 +47,12 @@ header a {
 }
 
 header ul {
+  display: flex;
   flex: 3 1;
   margin-right: 5rem;
   margin-left: -3rem;
   width: 100%;
   float: right;
-  display: flex;
   justify-content: space-around;
 }
 
@@ -68,7 +68,6 @@ header li a {
   width: 100%;
   height: 1.5rem;
   padding: .7rem;
-  border-bottom: 2 rem;
   font-size: 1.2rem;
   font-family: Source Sans Pro, sans-serif;
   color: #61dafb;
@@ -89,6 +88,132 @@ header .OnProjectsPage a{
 
 header .OnExtracurricularPage a{
   border-bottom: solid #61dafb;
+}
+
+.fas {
+  display: none;
+}
+
+/*Mobile Header Section CSS*/
+
+@media only screen and (max-width: 600px) {
+
+  header {
+    background-color: #282c34;
+    min-height: 10rem;
+    max-height: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    border-bottom: 1px solid #393D45;
+  }
+
+  .App-header ul {
+    display: none;
+  }
+
+  .Mobile-header ul {
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 3rem;
+    padding: 0;
+  }
+
+  header h1 {
+    width: 93vw;
+    height: 50%;
+    font-weight: lighter;
+    font-size: 1.8rem;
+    font-family: Montserrat, sans-serif;
+    padding: 7vw;
+    padding-right: 0;
+    justify-content: space-between;
+    background-color: #DDDDDD;
+    margin-top: 0;
+  }
+
+  header a {
+    font-family: Montserrat, sans-serif;
+    font-weight: lighter;
+    color: #282c34;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: auto;
+  }
+
+  header li {
+    position: relative;
+    list-style: none;
+    margin-top: 3rem;
+    border: 1px solid #61dafb;
+  }
+  
+  header li a {
+    display: block;
+    width: 100%;
+    height: 1.5rem;
+    padding: 0rem;
+    padding-top: .7rem;
+    padding-bottom: .7rem;
+    font-size: 1.2rem;
+    font-family: Source Sans Pro, sans-serif;
+    color: #61dafb;
+    border-bottom: 0rem;
+    margin-left: 0;
+  }
+
+  header .OnExperiencePage a{
+    border-bottom: none;
+  }
+
+  header .OnProjectsPage a{
+    border-bottom: none;
+  }
+  
+  header .OnExtracurricularPage a{
+    border-bottom: none;
+  }
+
+  .fas {
+    display: inline-block;
+    font-size: 30px;
+    color: #282c34;
+    float: left;
+    margin-right: 6vw;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  header {
+    max-width: 100vw;
+  }
+
+  header h1 {
+    width: 93vw;
+    height: 50%;
+    font-weight: lighter;
+    font-size: 1.8rem;
+    font-family: Montserrat, sans-serif;
+    padding: 7vw;
+    padding-right: 0;
+    justify-content: space-between;
+    background-color: #DDDDDD;
+    margin-top: 0;
+  }
+
+  header a {
+    font-family: Montserrat, sans-serif;
+    font-weight: lighter;
+    font-size: 1.5rem;
+    color: #282c34;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: auto;
+  }
 }
 
 /*Experience Section CSS*/
@@ -149,6 +274,84 @@ header .OnExtracurricularPage a{
   margin: auto;
 }
 
+/*Mobile Experience Section CSS*/
+
+@media only screen and (max-width: 600px) {
+  .ExperienceTile {
+    background-color: #393d45;
+    margin: auto;
+    margin-top: 5rem;
+    width: 14rem;
+    padding-top: 1rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    min-height: 14rem;
+    text-align: center;
+    overflow: hidden;
+    color: #DDDDDD;
+    font-size: 1rem;
+    border: solid 1px #61dafb;
+  }
+
+  .ExperienceTile p {
+    display: none;
+  }
+
+  .LocationAndTimeWorked {
+    display: inline-block;
+    width: 11rem;
+    word-wrap: break-word;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: .01rem;
+    margin: auto;
+  }
+  
+  .LocationAndTimeWorked h4 {
+    margin-top: 0;
+    width: 100%;
+  }
+
+  #Location {
+    margin-right: 0;
+  }  
+
+  .LogoContainer {
+    padding-bottom: 0;
+  }
+
+  .ExperienceTile img {
+    width: 4.5rem;
+    height: 4.5rem;
+    margin-bottom: -.3rem;
+    border: solid 2px #61dafb;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .ExperienceTile {
+    background-color: #393d45;
+    margin: auto;
+    margin-top: 5rem;
+    width: 13rem;
+    padding-top: 1rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    min-height: 12rem;
+    text-align: center;
+    overflow: hidden;
+    color: #DDDDDD;
+    font-size: 1rem;
+    border: solid 1px #61dafb;
+  }
+
+  .ExperienceTile img {
+    width: 4.5rem;
+    height: 4.5rem;
+    margin-bottom: -.3rem;
+    border: solid 2px #61dafb;
+  }
+}
 
 /*Project Section CSS*/
 
@@ -211,12 +414,80 @@ header .OnExtracurricularPage a{
   margin-top: 4rem;
 }
 
+/*Mobile Project Section CSS*/
+@media only screen and (max-width: 600px) {
+  .ProjectRow {
+    display: block;
+    justify-content: space-between;
+  }
+
+  .ProjectTile {
+    position: relative;
+    height: 11rem;
+    max-width: 85vw;
+    margin-left: 2.5vw;
+    margin-bottom: 4rem;
+
+  }
+
+  .ProjectTileImage {
+    opacity: 1;
+    width: 85vw;
+    height: auto;
+    transition: .5s ease;
+    transform: translate(0, -8.5rem);
+    -ms-transform: translate(0, -8.5rem); 
+    margin: auto;
+    margin-bottom: -35%;
+    border: solid 1px #61dafb;
+  }
+
+  .ProjectTileInfo {
+    width: 85vw;
+    height: 8rem;
+    transition: .5s ease;
+    opacity: 0;
+    text-align: center;
+    color: #DDDDDD;
+    margin: auto;
+    margin: 0;
+  }
+  
+  .ProjectTileInfo h4 {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    font-size: .6rem;
+    max-width: 85vw;
+  }
+
+  .row {
+    margin: 0;
+    margin-top: 3rem;
+    padding: 0;
+    width: 100vw;
+  }
+}
+
+@media only screen and (max-width: 365px) {
+  .ProjectTileInfo h3 {
+    font-size: .8rem;
+    margin-bottom: 0;
+  }
+  .ProjectTileInfo h4 {
+    padding-left: .6rem;
+    padding-right: .6rem;
+    font-size: .5rem;
+    max-width: 85vw;
+    margin-top: 0;
+  }
+}
+
 /*Extracurricular Section CSS*/
 .ExtracurricularTile {
   width: 100%;
   text-align: center;
   margin-top: 4rem;
-  color: #DDDDDD
+  color: #DDDDDD;
 }
 
 .ExtracurricularTile img{
@@ -227,6 +498,23 @@ header .OnExtracurricularPage a{
 .ExtracurricularTile h2 {
   font-family: Quicksand, sans-serif;
   font-weight: lighter;
+}
+
+/*Mobile Extracurricular Section CSS*/
+@media only screen and (max-width: 600px) {
+  .ExtracurricularTile {
+    width: 85vw;
+    text-align: center;
+    margin-top: 4rem;
+    color: #DDDDDD;
+    padding-left: 7.5vw;
+    padding-right: 7.5vw;
+  }
+
+  .ExtracurricularTile img{
+    width: 85vw;
+    margin: auto;
+  }
 }
 
 .ExtracurricularSection {
@@ -299,4 +587,49 @@ header .OnExtracurricularPage a{
   font-size: 1.2rem;
   font-family: Source Sans Pro, sans-serif;
   color: #61dafb;
+}
+
+/*Footer Section CSS*/
+
+@media only screen and (max-width: 600px) {
+  .App-footer h3{
+    text-align: left;
+    flex: 3 1;
+    float: left;
+    font-family: Montserrat,sans-serif;
+    font-weight: 200;
+    font-size: .8rem;
+    color: #DDDDDD;
+    position: absolute;
+    bottom: 0;
+    padding-left: 1rem;
+  }
+  
+  .App-footer img {
+    height: 1.7rem;
+    width: 1.7rem;
+    position: absolute;
+    bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .App-footer h3{
+    text-align: left;
+    flex: 3 1;
+    float: left;
+    font-family: Montserrat,sans-serif;
+    font-weight: 200;
+    font-size: .75rem;
+    color: #DDDDDD;
+    position: absolute;
+    bottom: 0;
+    padding-left: .8rem;
+  }
+  .App-footer img {
+    height: 1.6rem;
+    width: 1.6rem;
+    position: absolute;
+    bottom: 0;
+  }
 }
