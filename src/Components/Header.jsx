@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { useLocation } from 'react-router-dom'
 import '../App.css';
+import Resume from '../Data/Resume.pdf';
 import { Component } from "react";
 
 class Header extends Component{
@@ -48,6 +49,7 @@ class Header extends Component{
             <li className="OnExperiencePage"><Link to="/">Experience</Link></li>
             <li><Link to="/Projects">Projects</Link></li>
             <li><Link to="/Extracurricular">Extracurricular</Link></li>
+            <li><a href = {Resume} target = "_blank">Resume</a></li>
           </ul>
         </header>
       );  
@@ -63,6 +65,7 @@ class Header extends Component{
             <li><Link to="/">Experience</Link></li>
             <li className="OnProjectsPage"><Link to="/Projects">Projects</Link></li>
             <li><Link to="/Extracurricular">Extracurricular</Link></li>
+            <li><a href = {Resume} target = "_blank">Resume</a></li>
           </ul>
         </header>
       ); 
@@ -78,6 +81,7 @@ class Header extends Component{
               <li><Link to="/">Experience</Link></li>
               <li><Link to="/Projects">Projects</Link></li>
               <li className="OnExtracurricularPage"><Link to="/Extracurricular">Extracurricular</Link></li>
+              <li><a href = {Resume} target = "_blank">Resume</a></li>
             </ul>
           </header>
       ); 
