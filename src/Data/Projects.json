@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "Project": 	"Allele Frequency Similator",
+        "Project": 	"Allele Frequency Simulator",
         "Type": "Capstone",
         "Image": "AFSdarkgrey",
         "Description": "A web application built on the Angular4 platform, Flask micro framework, and Python. The application was developed for the Whitworth Biology Department, and provides a graphical representation of the frequency of dominant alleles within populations. The algorithm is based on the Hardy-Weinberg equation and uses random pairing of parent alleles. Our team utilized agile methodologies for this capstone project.",
