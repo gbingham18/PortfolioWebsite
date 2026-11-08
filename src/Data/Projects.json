@@ -31,5 +31,16 @@
         "Type2": "Internship",
         "Image2": "FPC",
         "Description2": "Built a full stack web application that allowed for church members to volunteer for various activities/events, this improved the efficiency of the congregation’s volunteering process."
+    },
+    {
+        "id": 4,
+        "Project": 	"Pong",
+        "Type": "Research",
+        "Image": "Pong",
+        "Description": "Built a two player pong desktop application on x86 assembly. Used the Win32 API to build the GUI. Paddles were controlled with keyboard input.",
+        "Project": 	"",
+        "Type": "",
+        "Image": "",
+        "Description": ""
     }
 ]
