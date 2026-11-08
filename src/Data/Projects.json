@@ -20,7 +20,6 @@
         "Type2": "Research",
         "Image2": "WhitworthMap",
         "Description2": "Used Python to implement the Held-Karp Algorithm, a dynamic programming approach for the Traveling Salesman problem. My implementation was used to determine the optimal mailing route for the Whitworth Post Office."
-
     },
     {
         "id": 3,
