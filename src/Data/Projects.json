@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "Project": "Replay",
+        "Project": "Playback",
         "Type": "Tinkering",
         "Image": "SpotifyWrapped",
         "Description": "A Ruby on Rails app that ingests and analyzes a user’s Spotify streaming history via data extract upload. Provides interactive, time-filterable insights and dynamic visualizations of top artists and tracks. Integrates with the Spotify API to enrich the experience with artist and track thumbnails. Implements asynchronous import processing with real-time progress updates.",
